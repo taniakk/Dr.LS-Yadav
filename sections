@@ -76,6 +76,197 @@
     </div>
   </section>  
 
+
+  new one
+  <!-- EXPERIENCE -->
+<section id="experience" class="py-24 lg:py-32 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6 md:px-10 lg:px-12">
+
+        <!-- Heading -->
+        <div class="text-center mb-20">
+
+            <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full
+                        bg-[#E50012]/10 text-[#E50012] border border-[#E50012]/10 mb-6">
+
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0" />
+                </svg>
+
+                <span class="font-semibold text-sm">
+                    Clinical Experience
+                </span>
+            </div>
+
+            <h2 class="text-4xl md:text-5xl font-bold text-[#0A1D37] mb-5">
+                Professional
+                <span class="text-[#E50012]">Experience</span>
+            </h2>
+
+            <p class="max-w-3xl mx-auto text-lg text-slate-600">
+                Extensive experience in Internal Medicine, Emergency Care,
+                Diabetes Management and patient-centered healthcare across
+                leading hospitals and healthcare institutions.
+            </p>
+
+        </div>
+
+        <!-- Main Card -->
+        <div class="relative">
+
+            <!-- Timeline Line -->
+            <div class="hidden lg:block absolute left-8 top-10 bottom-10 w-[2px] bg-gradient-to-b from-[#E50012] to-[#0A1D37]">
+            </div>
+
+            <div class="space-y-10">
+
+                <!-- Current -->
+                <div class="relative pl-0 lg:pl-24">
+
+                    <div
+                        class="hidden lg:flex absolute left-0 top-8 w-16 h-16 rounded-2xl
+                               bg-gradient-to-br from-[#E50012] to-[#0A1D37]
+                               items-center justify-center shadow-xl">
+
+                        <svg class="w-8 h-8 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12l2 2 4-4" />
+                        </svg>
+
+                    </div>
+
+                    <div
+                        class="bg-white rounded-[32px]
+                               border border-slate-200
+                               shadow-[0_20px_60px_rgba(10,29,55,0.08)]
+                               p-8 md:p-10">
+
+                        <div class="flex flex-wrap items-center gap-4 mb-6">
+
+                            <span
+                                class="px-4 py-2 rounded-full
+                                       bg-green-100 text-green-700
+                                       text-sm font-semibold">
+
+                                Currently Practicing
+
+                            </span>
+
+                            <span class="text-slate-500">
+                                Consultant Physician
+                            </span>
+
+                        </div>
+
+                        <h3 class="text-3xl font-bold text-[#0A1D37] mb-4">
+                            Visiting Consultant
+                        </h3>
+
+                        <p class="text-slate-600 leading-relaxed mb-8">
+                            Providing expert consultation, diagnosis and
+                            treatment in Internal Medicine, Diabetes Care,
+                            Preventive Healthcare and Emergency Medicine
+                            across multiple reputed healthcare institutions.
+                        </p>
+
+                        <div class="flex flex-wrap gap-3">
+
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                                Meditech Hospital
+                            </span>
+
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                                Ashoka Hospital & Trauma Centre
+                            </span>
+
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                                Samarth IVF Hospital
+                            </span>
+
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                                Vrindavan Hospital
+                            </span>
+
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                                Ajwa Hospital
+                            </span>
+
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                                Sukh Sagar Hi-Tech Hospital
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Previous -->
+                <div class="relative pl-0 lg:pl-24">
+
+                    <div
+                        class="hidden lg:flex absolute left-0 top-8 w-16 h-16 rounded-2xl
+                               bg-[#0A1D37]
+                               items-center justify-center shadow-xl">
+
+                        <svg class="w-8 h-8 text-white"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 8v4l3 3" />
+                        </svg>
+
+                    </div>
+
+                    <div
+                        class="bg-gradient-to-br from-[#0A1D37] to-[#16365F]
+                               rounded-[32px] p-8 md:p-10 text-white">
+
+                        <span
+                            class="inline-flex px-4 py-2 rounded-full
+                                   bg-white/10 text-white/90 text-sm mb-5">
+
+                            Previous Experience
+
+                        </span>
+
+                        <h3 class="text-3xl font-bold mb-4">
+                            Consultant Physician
+                        </h3>
+
+                        <h4 class="text-xl text-[#FFB5BC] mb-6">
+                            SevenHills Hospital, Andheri
+                        </h4>
+
+                        <p class="text-slate-300 leading-relaxed">
+                            Served as Consultant Physician at SevenHills Hospital,
+                            managing acute and chronic medical conditions,
+                            coordinating multidisciplinary care, and delivering
+                            evidence-based treatment with a strong focus on
+                            patient outcomes and clinical excellence.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
     <!-- Visiting Hospitals Section -->
   <section id="hospitals" class="py-20 lg:py-28 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
