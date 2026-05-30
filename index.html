@@ -69,7 +69,7 @@
       <div class="flex items-center justify-between h-16 lg:h-20">
         <!-- Logo -->
         <a href="#" class="flex items-center gap-3">
-        <img src="/images/Dr. LS logo.jpeg" alt="logo" srcset="" class=" object-contain w-[150px] h-[80px] ">
+        <img src="/images/Dr. LS logo.jpeg" alt="logo" srcset="" class=" object-contain lg:w-[150px] h-[65px] lg:h-[80px] ">
           
           <!-- <div class="hidden sm:block">
             <p class="font-bold text-secondary text-lg">Dr. L. S. Yadav</p>
@@ -872,33 +872,233 @@
 
  
 
-  <!-- Footer -->
-  <footer class="bg-secondary text-white py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-            </svg>
-          </div>
-          <div>
-            <p class="font-bold">Dr. L. S. Yadav</p>
-            <p class="text-xs text-white/60">MBBS, MD (Medicine)</p>
-          </div>
-        </div>
+ <!-- FOOTER -->
+<footer class="relative overflow-hidden bg-[#0A1D37] text-white">
 
-        <p class="text-sm text-white/60 text-center">
-          &copy; 2024 Dr. L. S. Yadav. All rights reserved.
-        </p>
-
-        <div class="flex items-center gap-6">
-          <a href="#" class="text-sm text-white/60 hover:text-white transition-colors">Privacy Policy</a>
-          <a href="#" class="text-sm text-white/60 hover:text-white transition-colors">Terms of Service</a>
-        </div>
-      </div>
+    <!-- TOP GRADIENT LINE -->
+    <div
+        class="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#E50012] via-white/40 to-[#0A1D37]">
     </div>
-  </footer>
+
+    <!-- BACKGROUND GLOWS -->
+    <div
+        class="absolute top-[-120px] left-[-120px] w-[300px] h-[300px] bg-[#E50012]/10 rounded-full blur-3xl">
+    </div>
+
+    <div
+        class="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-[#E50012]/10 rounded-full blur-3xl">
+    </div>
+
+    <div class="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 py-20">
+
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-12">
+
+            <!-- DOCTOR INFO -->
+            <div>
+                <h3 class="text-3xl font-bold mb-4">
+                    <span class="text-white">Dr.</span>
+                    <span class="text-[#E50012]">L. S. Yadav</span>
+                </h3>
+
+                <p class="text-slate-300 leading-relaxed mb-6">
+                    Dedicated to providing compassionate, evidence-based medical
+                    care with a focus on patient wellbeing, preventive healthcare,
+                    and long-term treatment excellence.
+                </p>
+
+                <div
+                    class="inline-flex items-center gap-2 bg-[#E50012]/10 text-[#FF6B76] px-4 py-2 rounded-full border border-[#E50012]/20">
+
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M9 12l2 2 4-4" />
+                    </svg>
+
+                    Trusted Medical Care
+                </div>
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div>
+                <h4 class="text-xl font-semibold mb-6 text-white">
+                    Quick Links
+                </h4>
+
+                <ul class="space-y-4">
+
+                    <li>
+                        <a href="#home"
+                            class="text-slate-300 hover:text-[#E50012] transition duration-300">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about"
+                            class="text-slate-300 hover:text-[#E50012] transition duration-300">
+                            About Doctor
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#services"
+                            class="text-slate-300 hover:text-[#E50012] transition duration-300">
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#qualifications"
+                            class="text-slate-300 hover:text-[#E50012] transition duration-300">
+                            Qualifications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact"
+                            class="text-slate-300 hover:text-[#E50012] transition duration-300">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- QUALIFICATIONS -->
+            <div>
+                <h4 class="text-xl font-semibold mb-6 text-white">
+                    Qualifications
+                </h4>
+
+                <ul class="space-y-4 text-slate-300">
+
+                    <li>MBBS</li>
+
+                    <li>CPS (Medicine)</li>
+
+                    <li>DTMH</li>
+
+                    <li>CCEBDM Certification</li>
+
+                    <li>2D Echo Certification</li>
+
+                    <li>J. J. Hospital Internship</li>
+
+                </ul>
+            </div>
+
+            <!-- CONTACT -->
+            <div>
+                <h4 class="text-xl font-semibold mb-6 text-white">
+                    Contact Info
+                </h4>
+
+                <div class="space-y-5">
+
+                    <div class="flex items-start gap-4">
+
+                        <div
+                            class="w-10 h-10 rounded-xl bg-[#E50012]/10 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-5 h-5 text-[#E50012]"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0L6.343 16.657a8 8 0 1111.314 0z" />
+                            </svg>
+                        </div>
+
+                        <div>
+                            <p class="text-slate-300">
+                                Mumbai, Maharashtra
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+
+                        <div
+                            class="w-10 h-10 rounded-xl bg-[#E50012]/10 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-5 h-5 text-[#E50012]"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a2 2 0 011.894 1.368l1.052 3.157a2 2 0 01-.447 2.11L9.414 11.586a16 16 0 006.586 6.586l1.95-1.365a2 2 0 012.11-.447l3.157 1.052A2 2 0 0121 18.72V22a2 2 0 01-2 2h-1C9.163 24 0 14.837 0 3V2a2 2 0 012-2h1z" />
+                            </svg>
+                        </div>
+
+                        <div>
+    <a href="tel:+917208590200"
+       class="text-slate-300 hover:text-[#E50012] transition duration-300">
+        +91 7208590200
+    </a>
+</div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+
+                        <div
+                            class="w-10 h-10 rounded-xl bg-[#E50012]/10 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-5 h-5 text-[#E50012]"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M16 12H8m8 0l-4 4m4-4l-4-4" />
+                            </svg>
+                        </div>
+
+                        <div>
+                            <p class="text-slate-300">
+                                Mon - Sat : 11:00 AM - 1:00 PM
+                                Mon - Sat : 6:00 PM - 9:00 PM
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- DIVIDER -->
+        <div class="border-t border-white/10 my-10"></div>
+
+        <!-- BOTTOM -->
+        <div
+            class="flex flex-col md:flex-row items-center justify-between gap-4">
+
+            <p class="text-slate-400 text-center md:text-left">
+                © 2026 Dr. L. S. Yadav. All Rights Reserved.
+            </p>
+
+            <div class="flex items-center gap-6">
+
+                <a href="#"
+                    class="text-slate-400 hover:text-[#E50012] transition duration-300">
+                    Privacy Policy
+                </a>
+
+                <a href="#"
+                    class="text-slate-400 hover:text-[#E50012] transition duration-300">
+                    Terms of Service
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</footer>
 
   <!-- Mobile Menu Script -->
   <script>
