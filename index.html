@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -62,7 +64,10 @@
     body, html{
       overflow-x: hidden;
     }
+
+    
   </style>
+  
 </head>
 <body class="font-sans antialiased bg-slate-50 text-slate-900">
 
@@ -163,16 +168,21 @@
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
           Dr. L. S. Yadav
 
-          <span class="block text-primary mt-2">
-            Physician, Diabetologist &amp; Internal Medicine Specialist
+          <span class="block text-primary mt-4 text-2xl sm:text-3xl lg:text-4xl">
+            Consulting Physician &amp; Diabetologist
+          </span>
+
+          <span class="block text-white/80 text-lg sm:text-xl mt-3 font-medium">
+            MBBS • CPS (Medicine) • DTM&amp;H
           </span>
         </h1>
 
         <!-- Description -->
         <p class="text-lg sm:text-xl text-slate-300 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
           Providing compassionate, evidence-based healthcare with over 10 years
-          of clinical experience. Specializing in diabetes management, heart care,
-          and preventive medicine.
+          of clinical experience. Specializing in diabetes management,
+          preventive healthcare, tropical medicine, and comprehensive
+          patient care tailored to individual needs.
         </p>
 
         <!-- Buttons -->
@@ -231,10 +241,12 @@
             <p class="text-white text-sm font-medium">
               Years Experience
             </p>
+
           </div>
 
           <!-- Patients -->
           <div class="text-center lg:text-left">
+
             <p class="text-3xl sm:text-4xl font-bold text-white">
               15K+
             </p>
@@ -242,10 +254,12 @@
             <p class="text-slate-400 text-sm">
               Patients Treated
             </p>
+
           </div>
 
           <!-- Rating -->
           <div class="text-center lg:text-left">
+
             <p class="text-3xl sm:text-4xl font-bold text-white">
               4.9
             </p>
@@ -253,9 +267,11 @@
             <p class="text-slate-400 text-sm">
               Patient Rating
             </p>
+
           </div>
 
         </div>
+
       </div>
 
       <!-- Image / Visual -->
@@ -265,7 +281,7 @@
 
         <div class="relative">
 
-          <!-- Bigger Doctor Image -->
+          <!-- Doctor Image -->
           <div class="w-[320px] h-[420px]
                       sm:w-[380px] sm:h-[500px]
                       lg:w-[500px] lg:h-[580px]
@@ -279,7 +295,7 @@
                  class="object-cover w-full h-full">
           </div>
 
-          <!-- Floating Badge -->
+          <!-- Qualification Badge -->
           <div class="absolute bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3 z-10">
 
             <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
@@ -297,11 +313,11 @@
 
             <div>
               <p class="font-semibold text-secondary">
-                Verified Doctor
+                Qualified Specialist
               </p>
 
               <p class="text-xs text-slate-500">
-                MCI Registered
+                MBBS • CPS (Medicine) • DTM&amp;H
               </p>
             </div>
 
@@ -332,6 +348,7 @@
           </div>
 
         </div>
+
       </div>
 
     </div>
@@ -373,96 +390,195 @@
 </script>
 
   <!-- About Section -->
-  <section id="about" class="py-20 lg:py-28 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-        <!-- Content -->
-        <div>
-          <div class="inline-flex items-center gap-2 bg-primary/10 text-primary rounded-full px-4 py-2 mb-6">
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
-            </svg>
-            <span class="text-sm font-medium">About Dr. Yadav</span>
-          </div>
+<section id="about" class="py-20 lg:py-28 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">
-            Dedicated to Your Health &amp; Well-being
-          </h2>
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
-          <p class="text-lg text-slate-600 mb-6 leading-relaxed">
-            Dr. L. S. Yadav is a highly qualified Internal Medicine specialist with extensive experience 
-            in managing complex medical conditions. With a compassionate approach and commitment to 
-            evidence-based medicine, he provides comprehensive healthcare services to patients of all ages.
-          </p>
+      <!-- Content -->
+      <div data-aos="fade-right" data-aos-duration="1000">
 
-          <p class="text-lg text-slate-600 mb-8 leading-relaxed">
-            After completing his MBBS and MD in Internal Medicine, Dr. Yadav has dedicated his career 
-            to helping patients achieve optimal health through preventive care, accurate diagnosis, 
-            and effective treatment plans tailored to individual needs.
-          </p>
+        <div
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="inline-flex items-center gap-2 bg-primary/10 text-primary rounded-full px-4 py-2 mb-6">
 
-          <!-- Highlights -->
-          <div class="grid sm:grid-cols-2 gap-4">
-            <div class="flex items-center gap-3 p-4 bg-slate-50 rounded-xl">
-              <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-                </svg>
-              </div>
-              <div>
-                <p class="font-semibold text-secondary">Board Certified</p>
-                <p class="text-sm text-slate-500">Internal Medicine</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3 p-4 bg-slate-50 rounded-xl">
-              <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-              </div>
-              <div>
-                <p class="font-semibold text-secondary">10+ Years</p>
-                <p class="text-sm text-slate-500">Clinical Experience</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3 p-4 bg-slate-50 rounded-xl">
-              <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
-                </svg>
-              </div>
-              <div>
-                <p class="font-semibold text-secondary">Home Visits</p>
-                <p class="text-sm text-slate-500">Available on Request</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-3 p-4 bg-slate-50 rounded-xl">
-              <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-                </svg>
-              </div>
-              <div>
-                <p class="font-semibold text-secondary">15,000+</p>
-                <p class="text-sm text-slate-500">Patients Treated</p>
-              </div>
-            </div>
-          </div>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+          </svg>
+
+          <span class="text-sm font-medium">
+            About Dr. Yadav
+          </span>
+
         </div>
 
-        <!-- Image -->
-        <div class="relative">
-          <div class="relative bg-gradient-to-br from-slate-100 to-slate-200 rounded-3xl overflow-hidden aspect-[4/5]">
-            <div class="absolute inset-0 flex items-center justify-center">
-              <img src="/images/aboutDr.LS.jpeg" alt="" srcset="">
+        <h2
+          data-aos="fade-up"
+          data-aos-delay="200"
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">
+
+          Dedicated to Your Health &amp; Well-being
+
+        </h2>
+
+        <p
+          data-aos="fade-up"
+          data-aos-delay="300"
+          class="text-lg text-slate-600 mb-6 leading-relaxed">
+
+          Dr. L. S. Yadav is a highly experienced
+          <strong>Consulting Physician &amp; Diabetologist</strong>
+          committed to delivering compassionate, evidence-based,
+          and patient-centered healthcare. With expertise in
+          preventive healthcare, diabetes management, tropical diseases,
+          and general medical care, he provides comprehensive treatment
+          tailored to each patient's unique needs.
+
+        </p>
+
+        <p
+          data-aos="fade-up"
+          data-aos-delay="400"
+          class="text-lg text-slate-600 mb-8 leading-relaxed">
+
+          After completing his <strong>MBBS</strong>,
+          <strong>CPS (Medicine)</strong>, and
+          <strong>DTM&amp;H (Diploma in Tropical Medicine &amp; Hygiene)</strong>
+          from Accord Hospital, Pune, Dr. Yadav has dedicated his career
+          to helping patients achieve better health through accurate diagnosis,
+          preventive care, and personalized treatment plans.
+
+        </p>
+
+        <!-- Highlights -->
+        <div class="grid sm:grid-cols-2 gap-4">
+
+          <!-- Qualification -->
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            class="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:shadow-lg transition-all duration-300">
+
+            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422A12.083 12.083 0 0112 20.055a12.083 12.083 0 01-6.16-9.477L12 14z" />
+              </svg>
             </div>
+
+            <div>
+              <p class="font-semibold text-secondary">
+                MBBS, CPS (Medicine)
+              </p>
+              <p class="text-sm text-slate-500">
+                Medical Qualifications
+              </p>
+            </div>
+
           </div>
-          <!-- Decorative Element -->
-          <div class="absolute -z-10 -bottom-6 -right-6 w-full h-full bg-primary/10 rounded-3xl"></div>
+
+          <!-- Experience -->
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            class="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:shadow-lg transition-all duration-300">
+
+            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+
+            <div>
+              <p class="font-semibold text-secondary">
+                10+ Years
+              </p>
+              <p class="text-sm text-slate-500">
+                Clinical Experience
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Specialty -->
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            class="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:shadow-lg transition-all duration-300">
+
+            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M19.428 15.341A8 8 0 118.659 4.572a8 8 0 0110.769 10.769z" />
+              </svg>
+            </div>
+
+            <div>
+              <p class="font-semibold text-secondary">
+                Diabetologist
+              </p>
+              <p class="text-sm text-slate-500">
+                Specialized Care
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Patients -->
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            class="flex items-center gap-3 p-4 bg-slate-50 rounded-xl hover:shadow-lg transition-all duration-300">
+
+            <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+              <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            </div>
+
+            <div>
+              <p class="font-semibold text-secondary">
+                15,000+
+              </p>
+              <p class="text-sm text-slate-500">
+                Patients Treated
+              </p>
+            </div>
+
+          </div>
+
         </div>
+
       </div>
+
+      <!-- Image -->
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1200"
+        class="relative">
+
+        <div class="relative bg-gradient-to-br from-slate-100 to-slate-200 rounded-3xl overflow-hidden aspect-[4/5] shadow-2xl">
+
+          <img
+            src="/images/aboutDr.LS.jpeg"
+            alt="Dr. L. S. Yadav"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+
+        </div>
+
+        <!-- Decorative Element -->
+        <div class="absolute -z-10 -bottom-6 -right-6 w-full h-full bg-primary/10 rounded-3xl"></div>
+
+      </div>
+
     </div>
-  </section>
+
+  </div>
+</section>
 
  
  <!-- QUALIFICATIONS & CERTIFICATIONS -->
@@ -706,10 +822,14 @@
     <div class="max-w-7xl mx-auto px-6 md:px-10 lg:px-12">
 
         <!-- Heading -->
-        <div class="text-center mb-20">
+        <div class="text-center mb-20"
+             data-aos="fade-up"
+             data-aos-duration="1000">
 
             <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full
-                        bg-[#E50012]/10 text-[#E50012] border border-[#E50012]/10 mb-6">
+                        bg-[#E50012]/10 text-[#E50012] border border-[#E50012]/10 mb-6"
+                 data-aos="zoom-in"
+                 data-aos-delay="100">
 
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -721,20 +841,29 @@
                 </span>
             </div>
 
-            <h2 class="text-4xl md:text-5xl font-bold text-[#0A1D37] mb-5">
+            <h2 class="text-4xl md:text-5xl font-bold text-[#0A1D37] mb-5"
+                data-aos="fade-up"
+                data-aos-delay="200">
+
                 Professional
                 <span class="text-[#E50012]">Experience</span>
+
             </h2>
 
-            <p class="max-w-3xl mx-auto text-lg text-slate-600">
-                Extensive experience in Internal Medicine, Emergency Care,
-                Diabetes Management and patient-centered healthcare across
+            <p class="max-w-3xl mx-auto text-lg text-slate-600"
+               data-aos="fade-up"
+               data-aos-delay="300">
+
+                Extensive experience as a Consulting Physician &amp; Diabetologist,
+                providing comprehensive medical care, preventive healthcare,
+                diabetes management, and patient-centered treatment across
                 leading hospitals and healthcare institutions.
+
             </p>
 
         </div>
 
-        <!-- Main Card -->
+        <!-- Timeline Wrapper -->
         <div class="relative">
 
             <!-- Timeline Line -->
@@ -743,8 +872,10 @@
 
             <div class="space-y-10">
 
-                <!-- Current -->
-                <div class="relative pl-0 lg:pl-24">
+                <!-- Current Experience -->
+                <div class="relative pl-0 lg:pl-24"
+                     data-aos="fade-right"
+                     data-aos-duration="1200">
 
                     <div
                         class="hidden lg:flex absolute left-0 top-8 w-16 h-16 rounded-2xl
@@ -767,7 +898,8 @@
                         class="bg-white rounded-[32px]
                                border border-slate-200
                                shadow-[0_20px_60px_rgba(10,29,55,0.08)]
-                               p-8 md:p-10">
+                               p-8 md:p-10 hover:shadow-[0_25px_70px_rgba(10,29,55,0.12)]
+                               transition-all duration-500">
 
                         <div class="flex flex-wrap items-center gap-4 mb-6">
 
@@ -781,45 +913,76 @@
                             </span>
 
                             <span class="text-slate-500">
-                                Consultant Physician
+                                Consulting Physician &amp; Diabetologist
                             </span>
 
                         </div>
 
-                        <h3 class="text-3xl font-bold text-[#0A1D37] mb-4">
+                        <h3 class="text-3xl font-bold text-[#0A1D37] mb-5">
                             Visiting Consultant
                         </h3>
 
+                        <!-- Qualifications -->
+                        <div class="flex flex-wrap gap-3 mb-6">
+
+                            <span class="px-4 py-2 rounded-full bg-[#E50012]/10 text-[#E50012] font-medium"
+                                  data-aos="zoom-in"
+                                  data-aos-delay="100">
+                                MBBS
+                            </span>
+
+                            <span class="px-4 py-2 rounded-full bg-[#E50012]/10 text-[#E50012] font-medium"
+                                  data-aos="zoom-in"
+                                  data-aos-delay="200">
+                                CPS (Medicine)
+                            </span>
+
+                            <span class="px-4 py-2 rounded-full bg-[#E50012]/10 text-[#E50012] font-medium"
+                                  data-aos="zoom-in"
+                                  data-aos-delay="300">
+                                DTM&amp;H
+                            </span>
+
+                        </div>
+
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            <strong>DTM&amp;H (Diploma in Tropical Medicine &amp; Health)</strong>
+                            completed from Accord Hospital, Pune, providing advanced
+                            training in tropical diseases, infectious diseases,
+                            preventive healthcare, and comprehensive patient care.
+                        </p>
+
                         <p class="text-slate-600 leading-relaxed mb-8">
-                            Providing expert consultation, diagnosis and
-                            treatment in Internal Medicine, Diabetes Care,
-                            Preventive Healthcare and Emergency Medicine
-                            across multiple reputed healthcare institutions.
+                            Providing expert consultation and comprehensive medical care
+                            as a Consulting Physician &amp; Diabetologist, with expertise in
+                            diabetes management, preventive healthcare, tropical diseases,
+                            and emergency medical care across multiple reputed healthcare
+                            institutions.
                         </p>
 
                         <div class="flex flex-wrap gap-3">
 
-                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#E50012]/30 hover:bg-[#E50012]/5 transition-all duration-300">
                                 Meditech Hospital
                             </span>
 
-                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
-                                Ashoka Hospital & Trauma Centre
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#E50012]/30 hover:bg-[#E50012]/5 transition-all duration-300">
+                                Ashoka Hospital &amp; Trauma Centre
                             </span>
 
-                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#E50012]/30 hover:bg-[#E50012]/5 transition-all duration-300">
                                 Samarth IVF Hospital
                             </span>
 
-                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#E50012]/30 hover:bg-[#E50012]/5 transition-all duration-300">
                                 Vrindavan Hospital
                             </span>
 
-                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#E50012]/30 hover:bg-[#E50012]/5 transition-all duration-300">
                                 Ajwa Hospital
                             </span>
 
-                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200">
+                            <span class="px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#E50012]/30 hover:bg-[#E50012]/5 transition-all duration-300">
                                 Sukh Sagar Hi-Tech Hospital
                             </span>
 
@@ -829,8 +992,10 @@
 
                 </div>
 
-                <!-- Previous -->
-                <div class="relative pl-0 lg:pl-24">
+                <!-- Previous Experience -->
+                <div class="relative pl-0 lg:pl-24"
+                     data-aos="fade-left"
+                     data-aos-duration="1200">
 
                     <div
                         class="hidden lg:flex absolute left-0 top-8 w-16 h-16 rounded-2xl
@@ -851,7 +1016,8 @@
 
                     <div
                         class="bg-gradient-to-br from-[#0A1D37] to-[#16365F]
-                               rounded-[32px] p-8 md:p-10 text-white">
+                               rounded-[32px] p-8 md:p-10 text-white
+                               hover:shadow-2xl transition-all duration-500">
 
                         <span
                             class="inline-flex px-4 py-2 rounded-full
@@ -862,7 +1028,7 @@
                         </span>
 
                         <h3 class="text-3xl font-bold mb-4">
-                            Consultant Physician
+                            Consulting Physician &amp; Diabetologist
                         </h3>
 
                         <h4 class="text-xl text-[#FFB5BC] mb-6">
@@ -870,11 +1036,12 @@
                         </h4>
 
                         <p class="text-slate-300 leading-relaxed">
-                            Served as Consultant Physician at SevenHills Hospital,
-                            managing acute and chronic medical conditions,
-                            coordinating multidisciplinary care, and delivering
-                            evidence-based treatment with a strong focus on
-                            patient outcomes and clinical excellence.
+                            Served as a Consulting Physician &amp; Diabetologist at
+                            SevenHills Hospital, Andheri, delivering comprehensive
+                            patient care, managing diabetes and chronic medical
+                            conditions, coordinating multidisciplinary treatment,
+                            and ensuring evidence-based healthcare with a strong
+                            focus on patient well-being and clinical excellence.
                         </p>
 
                     </div>
@@ -1432,6 +1599,8 @@
     </div>
 </footer>
 
+
+
   <!-- Mobile Menu Script -->
   <script>
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
@@ -1494,6 +1663,17 @@
       });
     })();
   </script>
+  
+
+  <!-- WhatsApp SVG -->
+  <a href="https://wa.me/918779902810"
+   target="_blank"
+   aria-label="Chat on WhatsApp"
+   class="fixed right-4 bottom-4 z-50 w-14 h-14 bg-[#25D366] hover:bg-[#1ebe5d] rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110">
+
+    <i class="fa-brands fa-whatsapp text-white text-3xl"></i>
+
+</a>
 
 </body>
 </html>
